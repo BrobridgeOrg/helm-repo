@@ -3,7 +3,23 @@ entries:
   gravity:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-04T16:32:01.194459082+08:00"
+    created: "2020-05-22T12:18:33.925578469+08:00"
+    description: A CQRS solution Helm chart for Kubernetes
+    digest: d04b15cb7a4808010a7c5177b725f6080f26aac1b66b2201ec6afb07545e42c3
+    maintainers:
+    - email: fred@brobridge.com
+      name: Fred
+    - email: jhe@brobridge.com
+      name: Jhe
+    name: gravity
+    sources:
+    - https://git.brobridge.com/gravity/gravity-operator.git
+    urls:
+    - gravity-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-05-22T12:18:33.920720991+08:00"
     description: A CQRS solution Helm chart for Kubernetes
     digest: ab59b6a19226496a4815e5cc4ccaaf070ccd519ef0837e336b6e6e2f786ba024
     maintainers:
@@ -20,7 +36,7 @@ entries:
   gravity-adapter-nats-streaming:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-04T16:32:01.194872923+08:00"
+    created: "2020-05-22T12:18:33.926572255+08:00"
     description: This adapter is used to gather data from NATS Streaming.
     digest: 3cb665d55be9be11b91dd4dc6dae83ec472c6c72cd39c890c09ec9c2bd97e80c
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -38,7 +54,7 @@ entries:
   gravity-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-04T16:32:01.195274921+08:00"
+    created: "2020-05-22T12:18:33.927589047+08:00"
     description: A CQRS solution's CRD Helm chart for Kubernetes
     digest: 310f5755674e607c337396f851bbd7d4f31259a738ec19b0d0939b2ee7efe36c
     maintainers:
@@ -50,4 +66,4 @@ entries:
     urls:
     - gravity-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-04T16:32:01.191677778+08:00"
+generated: "2020-05-22T12:18:33.914868403+08:00"
