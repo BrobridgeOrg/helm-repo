@@ -3,16 +3,7 @@ entries:
   gravity:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-19T18:03:32.698070706+08:00"
-    dependencies:
-    - alias: natsoperator
-      name: nats-operator
-      repository: file://../subcharts/nats-operator
-      version: 0.1.4
-    - alias: natsstreamingoperator
-      name: nats-streaming-operator
-      repository: file://../subcharts/nats-streaming-operator
-      version: 1.0.2
+    created: "2020-06-21T14:11:04.311462152+08:00"
     description: A CQRS solution Helm chart for Kubernetes
     digest: ef700562b528138fcfc046f0f42099d14d64984d97f4112cc2132313b242463b
     maintainers:
@@ -26,35 +17,10 @@ entries:
     urls:
     - gravity-1.0.1.tgz
     version: 1.0.1
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2020-06-19T18:03:32.695157238+08:00"
-    dependencies:
-    - alias: natsoperator
-      name: nats-operator
-      repository: file://../subcharts/nats-operator
-      version: 0.1.4
-    - alias: natsstreamingoperator
-      name: nats-streaming-operator
-      repository: file://../subcharts/nats-streaming-operator
-      version: 1.0.2
-    description: A CQRS solution Helm chart for Kubernetes
-    digest: 8607db859cdfd4fdeaf4fdecec48094b4e24cd5b917de70e53a375eb57c92b93
-    maintainers:
-    - email: fred@brobridge.com
-      name: Fred
-    - email: jhe@brobridge.com
-      name: Jhe
-    name: gravity
-    sources:
-    - https://git.brobridge.com/gravity/gravity-operator.git
-    urls:
-    - gravity-1.0.0.tgz
-    version: 1.0.0
   gravity-adapter-nats-streaming:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-19T18:03:32.69873043+08:00"
+    created: "2020-06-21T14:11:04.311670718+08:00"
     description: This adapter is used to gather data from NATS Streaming.
     digest: c1daf24d2c8279ea6c7c977d561baf8c4411297b5eb4f983e3d35015a714fb88
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -69,27 +35,10 @@ entries:
     urls:
     - gravity-adapter-nats-streaming-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2020-06-19T18:03:32.69840489+08:00"
-    description: This adapter is used to gather data from NATS Streaming.
-    digest: 3cb665d55be9be11b91dd4dc6dae83ec472c6c72cd39c890c09ec9c2bd97e80c
-    icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
-    maintainers:
-    - email: fred@brobridge.com
-      name: Fred
-    - email: jhe@brobridge.com
-      name: Jhe
-    name: gravity-adapter-nats-streaming
-    sources:
-    - https://github.com/BrobridgeOrg/gravity-adapter-nats-streaming.git
-    urls:
-    - gravity-adapter-nats-streaming-0.1.0.tgz
-    version: 0.1.0
   gravity-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-19T18:03:32.698926367+08:00"
+    created: "2020-06-21T14:11:04.311843977+08:00"
     description: A CQRS solution's CRD Helm chart for Kubernetes
     digest: 993c08da53c4a138b12564470f104a3a096688004a64aa2bb2b5b001fa846c58
     maintainers:
@@ -104,7 +53,7 @@ entries:
   nats-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-19T18:03:32.699473531+08:00"
+    created: "2020-06-21T14:11:04.312036484+08:00"
     description: A customized nats/nats-streaming CRD Helm chart for Kubernetes
     digest: 94cf11783c8cc98cee7be3db4b04c6b62a7e6dd3fd14129abfab5677fcd0761f
     maintainers:
@@ -116,4 +65,36 @@ entries:
     urls:
     - nats-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2020-06-19T18:03:32.692006031+08:00"
+  twist-community:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-06-21T14:11:04.312226818+08:00"
+    description: A transaction management solution's Helm chart for Kubernetes
+    digest: ffa28c229d8e06f73830e1fa95e2bbbc6dd33631cc9aabcb8f62e26fdb26bf9c
+    maintainers:
+    - email: fred@brobridge.com
+      name: Fred
+    - email: jhe@brobridge.com
+      name: Jhe
+    name: twist-community
+    sources:
+    - https://github.com/BrobridgeOrg
+    urls:
+    - twist-community-1.0.0.tgz
+    version: 1.0.0
+  twist-operator:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-06-21T14:11:04.312379426+08:00"
+    description: A transaction management solution's CRD Helm chart for Kubernetes
+    digest: 9ad4435ef34951e04190510c0ca609815053bd854e91c438e66627c9842f3f92
+    maintainers:
+    - email: jhe@brobridge.com
+      name: Jhe
+    name: twist-operator
+    sources:
+    - https://github.com/BrobridgeOrg
+    urls:
+    - twist-operator-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-06-21T14:11:04.309270353+08:00"
