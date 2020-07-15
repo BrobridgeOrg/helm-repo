@@ -3,7 +3,16 @@ entries:
   gravity:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-21T14:11:04.311462152+08:00"
+    created: "2020-07-15T18:20:22.862243939+08:00"
+    dependencies:
+    - alias: natsoperator
+      name: nats-operator
+      repository: file://../subcharts/nats-operator
+      version: 0.1.4
+    - alias: natsstreamingoperator
+      name: nats-streaming-operator
+      repository: file://../subcharts/nats-streaming-operator
+      version: 1.0.2
     description: A CQRS solution Helm chart for Kubernetes
     digest: ef700562b528138fcfc046f0f42099d14d64984d97f4112cc2132313b242463b
     maintainers:
@@ -20,7 +29,7 @@ entries:
   gravity-adapter-nats-streaming:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-21T14:11:04.311670718+08:00"
+    created: "2020-07-15T18:20:22.863675893+08:00"
     description: This adapter is used to gather data from NATS Streaming.
     digest: c1daf24d2c8279ea6c7c977d561baf8c4411297b5eb4f983e3d35015a714fb88
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -38,7 +47,7 @@ entries:
   gravity-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-21T14:11:04.311843977+08:00"
+    created: "2020-07-15T18:20:22.864675206+08:00"
     description: A CQRS solution's CRD Helm chart for Kubernetes
     digest: 993c08da53c4a138b12564470f104a3a096688004a64aa2bb2b5b001fa846c58
     maintainers:
@@ -53,7 +62,7 @@ entries:
   nats-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-21T14:11:04.312036484+08:00"
+    created: "2020-07-15T18:20:22.86564003+08:00"
     description: A customized nats/nats-streaming CRD Helm chart for Kubernetes
     digest: 94cf11783c8cc98cee7be3db4b04c6b62a7e6dd3fd14129abfab5677fcd0761f
     maintainers:
@@ -68,7 +77,7 @@ entries:
   twist-community:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-21T14:11:04.312226818+08:00"
+    created: "2020-07-15T18:20:22.866890971+08:00"
     description: A transaction management solution's Helm chart for Kubernetes
     digest: ffa28c229d8e06f73830e1fa95e2bbbc6dd33631cc9aabcb8f62e26fdb26bf9c
     maintainers:
@@ -85,7 +94,7 @@ entries:
   twist-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-21T14:11:04.312379426+08:00"
+    created: "2020-07-15T18:20:22.867592331+08:00"
     description: A transaction management solution's CRD Helm chart for Kubernetes
     digest: 9ad4435ef34951e04190510c0ca609815053bd854e91c438e66627c9842f3f92
     maintainers:
@@ -97,4 +106,45 @@ entries:
     urls:
     - twist-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2020-06-21T14:11:04.309270353+08:00"
+  vibration:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-15T18:20:22.873661812+08:00"
+    dependencies:
+    - alias: natsoperator
+      name: nats-operator
+      repository: file://../../../../subcharts/nats-operator
+      version: 0.1.4
+    - alias: natsstreamingoperator
+      name: nats-streaming-operator
+      repository: file://../../../../subcharts/nats-streaming-operator
+      version: 1.0.2
+    description: Vibration solution Helm chart for Kubernetes
+    digest: 4650f18982dd886ff3a42e203f4e4ca431e9d6a2ff5e656752a10730df5bf029
+    maintainers:
+    - email: fred@brobridge.com
+      name: Fred
+    - email: jhe@brobridge.com
+      name: Jhe
+    name: vibration
+    sources:
+    - https://github.com/BrobridgeOrg
+    urls:
+    - vibration-1.0.0.tgz
+    version: 1.0.0
+  vibration-operator:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-15T18:20:22.874367319+08:00"
+    description: Vibration solution's CRD Helm chart for Kubernetes
+    digest: 38abaaf1233ad7d3c257eb81e6db425a59f52427762ea5f648740cb03810eca8
+    maintainers:
+    - email: jhe@brobridge.com
+      name: Jhe
+    name: vibration-operator
+    sources:
+    - https://github.com/BrobridgeOrg
+    urls:
+    - vibration-operator-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-07-15T18:20:22.852234164+08:00"
