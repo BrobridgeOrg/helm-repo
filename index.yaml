@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  atomic-operator:
+  - apiVersion: v3
+    appVersion: 0.0.4
+    created: "2022-03-30T13:59:42.638553148+08:00"
+    description: Atomic Operator Helm chart for Kubernetes
+    digest: 212b0babd554cc5a4f68b522ce86b75bf5a836e98de755574387480d573162b6
+    maintainers:
+    - email: jhe@brobridge.com
+      name: Jhe
+    name: atomic-operator
+    sources:
+    - https://git.brobridge.com/atomic/atomic-operator.git
+    urls:
+    - atomic-operator-0.0.4.tgz
+    version: 0.0.4
   ginserver:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-22T18:09:22.250990684+08:00"
+    created: "2022-03-30T13:59:42.644200069+08:00"
     description: A Helm chart for Kubernetes
     digest: da5a8f87298dbedbc00cd28aff8acfe935bb04682a9348f89e00dad116d634f1
     name: ginserver
@@ -14,7 +29,7 @@ entries:
   gravity:
   - apiVersion: v1
     appVersion: "2.0"
-    created: "2022-03-22T18:09:22.260964527+08:00"
+    created: "2022-03-30T13:59:42.651909254+08:00"
     dependencies:
     - alias: natsoperator
       name: nats-operator
@@ -39,7 +54,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.255246638+08:00"
+    created: "2022-03-30T13:59:42.648281065+08:00"
     dependencies:
     - alias: natsoperator
       name: nats-operator
@@ -65,7 +80,7 @@ entries:
   gravity-adapter-nats-streaming:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.261756297+08:00"
+    created: "2022-03-30T13:59:42.652458311+08:00"
     description: This adapter is used to gather data from NATS Streaming.
     digest: c1daf24d2c8279ea6c7c977d561baf8c4411297b5eb4f983e3d35015a714fb88
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -83,7 +98,7 @@ entries:
   gravity-adapter-operator:
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.267335933+08:00"
+    created: "2022-03-30T13:59:42.658974376+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: 302cf1bda5bee80e4a3b22f758fb3b9cebacb8205ee8635a13fb798b81085200
     maintainers:
@@ -97,7 +112,7 @@ entries:
     version: 3.2.3
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.26700656+08:00"
+    created: "2022-03-30T13:59:42.65853187+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: 8572f4c3d0543bbafbd543cd83ce2feda5afafa2a73b47569612531ba4791cdd
     maintainers:
@@ -111,7 +126,7 @@ entries:
     version: 3.2.2
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.266581211+08:00"
+    created: "2022-03-30T13:59:42.658062958+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: 0ddc2deecfbe275dcad94a5c017e9963c22495940f766a97536b02d90451e441
     maintainers:
@@ -125,7 +140,7 @@ entries:
     version: 3.2.1
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.26613328+08:00"
+    created: "2022-03-30T13:59:42.657403186+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: ece3545de599b45f3e59ad224093d00dcc4016391bfca530e5df4facca3e27dc
     maintainers:
@@ -139,7 +154,7 @@ entries:
     version: 3.2.0
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.265621227+08:00"
+    created: "2022-03-30T13:59:42.655914481+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: 5eb22065574979eea8f314e6d09d6fae29031f9972cf7ecd4003f3bc37981c40
     maintainers:
@@ -153,7 +168,7 @@ entries:
     version: 3.1.0
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.265134542+08:00"
+    created: "2022-03-30T13:59:42.655489927+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: cd311923420af1c145e78969bbbf2e5364243e6edf7d0daf6685b5ce70aca360
     maintainers:
@@ -167,7 +182,7 @@ entries:
     version: 3.0.0
   - apiVersion: v3
     appVersion: "2.0"
-    created: "2022-03-22T18:09:22.264720297+08:00"
+    created: "2022-03-30T13:59:42.65508895+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: 97a037391ba6b12e479acc7fb948c2c501922fde7726fb9bf85ff6159f5ab41a
     maintainers:
@@ -181,7 +196,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.263940131+08:00"
+    created: "2022-03-30T13:59:42.654432302+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: b276a5cf8250dec82f3400dcbcde30191b30637e775398e342428ded3bf86cf4
     maintainers:
@@ -195,7 +210,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.263501003+08:00"
+    created: "2022-03-30T13:59:42.654028126+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: 75e25a8c49bce081f739bb411eb6848106fffe20b772e21a77d286ad2672117a
     maintainers:
@@ -209,7 +224,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.262627721+08:00"
+    created: "2022-03-30T13:59:42.653164557+08:00"
     description: A Gravity Adapter Operator Helm chart for Kubernetes
     digest: 2f0789a692c0a64a389c08cda54503dfd26583b412e075d5c035fec441c15613
     maintainers:
@@ -224,7 +239,7 @@ entries:
   gravity-adapter-stan:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.267812239+08:00"
+    created: "2022-03-30T13:59:42.659679714+08:00"
     description: This adapter is used to gather data from NATS Streaming.
     digest: 996d7aaa844419b826a06c9e4dea821812de2da09a5d71844a4648b6cdd5e785
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -242,7 +257,7 @@ entries:
   gravity-exporter-nats:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.26864722+08:00"
+    created: "2022-03-30T13:59:42.66048128+08:00"
     description: This exporter is used to gather data from NATS.
     digest: 50236f1bfe3326ff201a74bd707b2056f2d8bc0300df9d711437b2b3d23ae94a
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -260,7 +275,7 @@ entries:
   gravity-exporter-operator:
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.272992793+08:00"
+    created: "2022-03-30T13:59:42.668630636+08:00"
     description: A Gravity Exporter Operator Helm chart for Kubernetes
     digest: af2cf39af49e652d94d6d2255df67ae9b462947a09008c3243854dc93415239b
     maintainers:
@@ -274,7 +289,7 @@ entries:
     version: 2.2.1
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.27253759+08:00"
+    created: "2022-03-30T13:59:42.667598334+08:00"
     description: A Gravity Exporter Operator Helm chart for Kubernetes
     digest: 7c4fa0eb4155d019aa376ee45e9987e84c2f652e03bc4494095394c39597ebfd
     maintainers:
@@ -288,7 +303,7 @@ entries:
     version: 2.2.0
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.272095948+08:00"
+    created: "2022-03-30T13:59:42.666562044+08:00"
     description: A Gravity Exporter Operator Helm chart for Kubernetes
     digest: ba0283bde4b45b75d7718ad9ebce0da4a9cc959f28706bb9d26107e1194a0dfa
     maintainers:
@@ -302,7 +317,7 @@ entries:
     version: 2.1.0
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.271584025+08:00"
+    created: "2022-03-30T13:59:42.665434185+08:00"
     description: A Gravity Exporter Operator Helm chart for Kubernetes
     digest: 2099856fe1327a2d3df1756ecc4d754302062d7d0ec195e32513243d41ddd6b0
     maintainers:
@@ -316,7 +331,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.270736314+08:00"
+    created: "2022-03-30T13:59:42.664100562+08:00"
     description: A Gravity Exporter Operator Helm chart for Kubernetes
     digest: 77f4ccf793f2a01892ab46961848f2d729be94d821e5539fbd10917d64772060
     maintainers:
@@ -330,7 +345,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.270283732+08:00"
+    created: "2022-03-30T13:59:42.663118883+08:00"
     description: A Gravity Exporter Operator Helm chart for Kubernetes
     digest: 1cc2ef30ece3a5e3c2c95de08f3c1c52f1448f8761836c5c1172bad645a3b5da
     maintainers:
@@ -344,7 +359,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.269522147+08:00"
+    created: "2022-03-30T13:59:42.661768615+08:00"
     description: A Gravity Exporter Operator Helm chart for Kubernetes
     digest: 75543bfd5104579cfc248d236b36fa2b804fdaf67eb21166f42a59810a6713e0
     maintainers:
@@ -359,7 +374,7 @@ entries:
   gravity-exporter-rest:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.274294995+08:00"
+    created: "2022-03-30T13:59:42.670064882+08:00"
     description: This exporter is used to gather data from REST.
     digest: ade3ccbe53849717da43f00fa2e34e5a441fa87449e56a4da7b86d399070745d
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -377,7 +392,7 @@ entries:
   gravity-exporter-stan:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.275400749+08:00"
+    created: "2022-03-30T13:59:42.671894258+08:00"
     description: This exporter is used to gather data from NATS Streaming.
     digest: 250073b32ed0f84f08a4e87be9d0464fc56953bdbc4d962b5e69c63ed947d65c
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -395,7 +410,7 @@ entries:
   gravity-operator:
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.28238861+08:00"
+    created: "2022-03-30T13:59:42.686341245+08:00"
     description: A CQRS solution's Operator Helm chart for Kubernetes
     digest: fdac83e8c0b0e243dc3ee3f441d916e75312a56dcaacadcc87263af68434d200
     maintainers:
@@ -409,7 +424,7 @@ entries:
     version: 4.2.1
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.281938883+08:00"
+    created: "2022-03-30T13:59:42.685131021+08:00"
     description: A CQRS solution's Operator Helm chart for Kubernetes
     digest: 6ac5c3813b1c0bc039ebf036989161d7a9ad864cf03218f6d2b4433021a9412a
     maintainers:
@@ -423,7 +438,7 @@ entries:
     version: 4.2.0
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.281398562+08:00"
+    created: "2022-03-30T13:59:42.684103447+08:00"
     description: A CQRS solution's Operator Helm chart for Kubernetes
     digest: ad15cb96d6b767401a3999ab6cd6fef043d0dab5c6648edc5136f7d0f3e75068
     maintainers:
@@ -437,7 +452,7 @@ entries:
     version: 4.1.0
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.280573666+08:00"
+    created: "2022-03-30T13:59:42.68274555+08:00"
     description: A CQRS solution's Operator Helm chart for Kubernetes
     digest: a757de0c322efa5476e68363c82aa0fc38c123faeaef9b8c7ab51dd17a13cb1d
     maintainers:
@@ -451,7 +466,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: "3.0"
-    created: "2022-03-22T18:09:22.279713504+08:00"
+    created: "2022-03-30T13:59:42.681102106+08:00"
     description: A CQRS solution's Operator Helm chart for Kubernetes
     digest: c7a3956ac7fb8c870713f47b1b76a07c9e19b4c181c4957b959c1c6a9bbdf748
     maintainers:
@@ -465,7 +480,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: "2.0"
-    created: "2022-03-22T18:09:22.278924693+08:00"
+    created: "2022-03-30T13:59:42.679789622+08:00"
     description: A CQRS solution's Operator Helm chart for Kubernetes
     digest: fdaea593371492605033506e03feb8aed5bb425878456ccc544b8fe9e3c5f195
     maintainers:
@@ -479,7 +494,7 @@ entries:
     version: 2.0.3
   - apiVersion: v2
     appVersion: "2.0"
-    created: "2022-03-22T18:09:22.278505162+08:00"
+    created: "2022-03-30T13:59:42.678766562+08:00"
     description: A CQRS solution's Operator Helm chart for Kubernetes
     digest: f95edccdea0c85a12cf81d08d6363f3609d32d4c992fc9313da36c75b3a7d2e9
     maintainers:
@@ -493,7 +508,7 @@ entries:
     version: 2.0.2
   - apiVersion: v1
     appVersion: "2.0"
-    created: "2022-03-22T18:09:22.277985113+08:00"
+    created: "2022-03-30T13:59:42.677136527+08:00"
     description: A CQRS solution's Operator Helm chart for Kubernetes
     digest: 6edeb627c55ca6904c35a8b9a2f8855a79c0ea27e029605d6c85a9f9b3823f54
     maintainers:
@@ -507,7 +522,7 @@ entries:
     version: 2.0.1
   - apiVersion: v1
     appVersion: "2.0"
-    created: "2022-03-22T18:09:22.277103619+08:00"
+    created: "2022-03-30T13:59:42.674769561+08:00"
     description: A CQRS solution's CRD Helm chart for Kubernetes
     digest: 1647a48ef6b3ebbac36b28ba06089296bc070b3ae58ed9966c60b3776bd3b8dc
     maintainers:
@@ -521,7 +536,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.276153861+08:00"
+    created: "2022-03-30T13:59:42.673290461+08:00"
     description: A CQRS solution's CRD Helm chart for Kubernetes
     digest: 993c08da53c4a138b12564470f104a3a096688004a64aa2bb2b5b001fa846c58
     maintainers:
@@ -536,7 +551,7 @@ entries:
   gravity-presenter-operator:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.284157299+08:00"
+    created: "2022-03-30T13:59:42.692305733+08:00"
     description: A Gravity Presenter Operator Helm chart for Kubernetes
     digest: 76c7946b6dba224f110827584d0ab8d323e08155e66eccfadc6103fc8ca5c12d
     maintainers:
@@ -550,7 +565,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.283722553+08:00"
+    created: "2022-03-30T13:59:42.690106982+08:00"
     description: A Gravity Presenter Operator Helm chart for Kubernetes
     digest: 1205404ab01ef750c2e702ef2cf583238f0afd1bf1465ca885e7c549ef525cd9
     maintainers:
@@ -564,7 +579,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.282834888+08:00"
+    created: "2022-03-30T13:59:42.688432871+08:00"
     description: A Gravity Presenter Operator Helm chart for Kubernetes
     digest: 0dcd5bd32ce01cfe7c6b0bc13b4e9c415a8aa61f3508b10936d17e49193b6332
     maintainers:
@@ -579,7 +594,7 @@ entries:
   gravity-presenter-rest:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.285147733+08:00"
+    created: "2022-03-30T13:59:42.694122414+08:00"
     description: This gravity presenter is used to provide restful API faster.
     digest: e9df2356b3390a5fe2b5e2987d23fac451daf3e68b6d96b13f3fce2ec1886c6d
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -597,7 +612,7 @@ entries:
   gravity-querykit-operator:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.28714315+08:00"
+    created: "2022-03-30T13:59:42.697464627+08:00"
     description: A Gravity Querykit Operator Helm chart for Kubernetes
     digest: c4fc64dcaff505a2e8ff677f45cf566bbcde9de0fe8aebaaa31dd97ab9c60352
     maintainers:
@@ -611,7 +626,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.286689513+08:00"
+    created: "2022-03-30T13:59:42.696484465+08:00"
     description: A Gravity Querykit Operator Helm chart for Kubernetes
     digest: 629034e5b3fea7a21306f7ddb35571b4dda4a87862180b46e27a108e2014bd2f
     maintainers:
@@ -625,7 +640,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.286066108+08:00"
+    created: "2022-03-30T13:59:42.695477689+08:00"
     description: A Gravity Querykit Operator Helm chart for Kubernetes
     digest: c448550d05d4e93de4af12c382fde058406640d67faff4c14dcbafca2443f4d2
     maintainers:
@@ -640,7 +655,7 @@ entries:
   gravity-querykit-postgres:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.288074372+08:00"
+    created: "2022-03-30T13:59:42.699048054+08:00"
     description: This gravity QueryKit is used to provide a way to access postgres..
     digest: 9538a9fea7c77e058d3badf919bf5876b4eb21ffa7288174171cc714c1ae8ff0
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -658,7 +673,7 @@ entries:
   gravity-transmitter-mysql:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.288587159+08:00"
+    created: "2022-03-30T13:59:42.700122795+08:00"
     description: The gravity transmitter is used to write data to MySQL database.
     digest: 887844f148d139faa845fd0f3e0344d19f4d7c631d95fb71f20669dd435a2209
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -676,7 +691,7 @@ entries:
   gravity-transmitter-operator:
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.293478167+08:00"
+    created: "2022-03-30T13:59:42.707888687+08:00"
     description: A Gravity Transmitter Operator Helm chart for Kubernetes
     digest: 9008f397042dff07ee51896d4d604babb570db174ddd2d6becf6e9e57e5dfccb
     maintainers:
@@ -690,7 +705,7 @@ entries:
     version: 2.2.2
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.29313991+08:00"
+    created: "2022-03-30T13:59:42.706919549+08:00"
     description: A Gravity Transmitter Operator Helm chart for Kubernetes
     digest: c176ac882a7629af2788a91104f572f787a9c3ffbabec546740647ec06e835eb
     maintainers:
@@ -704,7 +719,7 @@ entries:
     version: 2.2.1
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.292430825+08:00"
+    created: "2022-03-30T13:59:42.705916985+08:00"
     description: A Gravity Transmitter Operator Helm chart for Kubernetes
     digest: 9580aa6b1455d53ba99269466ec31b81a93cd664e1054baf44cdda05219e5066
     maintainers:
@@ -718,7 +733,7 @@ entries:
     version: 2.2.0
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.291893195+08:00"
+    created: "2022-03-30T13:59:42.704928927+08:00"
     description: A Gravity Transmitter Operator Helm chart for Kubernetes
     digest: dfa880fda6fa8f3c1aa94f78a2b51d819a3a69ac026fd490b2b879d8f6125efd
     maintainers:
@@ -732,7 +747,7 @@ entries:
     version: 2.1.0
   - apiVersion: v3
     appVersion: "4.0"
-    created: "2022-03-22T18:09:22.290730233+08:00"
+    created: "2022-03-30T13:59:42.703887874+08:00"
     description: A Gravity Transmitter Operator Helm chart for Kubernetes
     digest: d9224a9367302313729cf6ac33a55e89d51e00bbc3c5ed81f9928bbf51f2ace8
     maintainers:
@@ -746,7 +761,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.290262353+08:00"
+    created: "2022-03-30T13:59:42.70299935+08:00"
     description: A Gravity Transmitter Operator Helm chart for Kubernetes
     digest: d840e1e36706e90b8abe6c1464ec6ad8852668959423ff348d0bd81099807869
     maintainers:
@@ -760,7 +775,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.28970047+08:00"
+    created: "2022-03-30T13:59:42.702069223+08:00"
     description: A Gravity Transmitter Operator Helm chart for Kubernetes
     digest: cce50b82ca320158f8f923233044a89f468857967aaf1dec457463142ad71c1b
     maintainers:
@@ -774,7 +789,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.289067104+08:00"
+    created: "2022-03-30T13:59:42.701087919+08:00"
     description: A Gravity Transmitter Operator Helm chart for Kubernetes
     digest: 2577d4235ee1319c265a78b7a37714052090cc4a32a0c6f6d0772b5fb6f614a0
     maintainers:
@@ -789,7 +804,7 @@ entries:
   gravity-transmitter-postgres:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.29422548+08:00"
+    created: "2022-03-30T13:59:42.709144638+08:00"
     description: The gravity transmitter is used to write data to PostgreSQL database.
     digest: d624d37e020c8c4e9dbcc386fa568055e7d01a17fc9cc03b12b9ed8df91047a4
     icon: https://raw.githubusercontent.com/BrobridgeOrg/gravity-operator/master/helm/gravity-operator/gravity.png
@@ -807,7 +822,7 @@ entries:
   nats-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.294626398+08:00"
+    created: "2022-03-30T13:59:42.710058029+08:00"
     description: A customized nats/nats-streaming CRD Helm chart for Kubernetes
     digest: 94cf11783c8cc98cee7be3db4b04c6b62a7e6dd3fd14129abfab5677fcd0761f
     maintainers:
@@ -822,7 +837,7 @@ entries:
   twist-community:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.295402495+08:00"
+    created: "2022-03-30T13:59:42.711473605+08:00"
     description: A transaction management solution's Helm chart for Kubernetes
     digest: ffa28c229d8e06f73830e1fa95e2bbbc6dd33631cc9aabcb8f62e26fdb26bf9c
     maintainers:
@@ -839,7 +854,7 @@ entries:
   twist-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.29574403+08:00"
+    created: "2022-03-30T13:59:42.712456271+08:00"
     description: A transaction management solution's CRD Helm chart for Kubernetes
     digest: 9ad4435ef34951e04190510c0ca609815053bd854e91c438e66627c9842f3f92
     maintainers:
@@ -854,7 +869,7 @@ entries:
   vibration:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.298358998+08:00"
+    created: "2022-03-30T13:59:42.718123903+08:00"
     dependencies:
     - alias: natsoperator
       name: nats-operator
@@ -880,7 +895,7 @@ entries:
   vibration-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-22T18:09:22.298745262+08:00"
+    created: "2022-03-30T13:59:42.718788205+08:00"
     description: Vibration solution's CRD Helm chart for Kubernetes
     digest: 38abaaf1233ad7d3c257eb81e6db425a59f52427762ea5f648740cb03810eca8
     maintainers:
@@ -892,4 +907,4 @@ entries:
     urls:
     - vibration-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-22T18:09:22.250320393+08:00"
+generated: "2022-03-30T13:59:42.637881021+08:00"
